@@ -43,7 +43,15 @@ int main() {
     CartaII.pibPerCapita = CartaII.populacao / CartaII.pib;
     CartaII.SuperPoder = (CartaII.populacao + CartaII.area + CartaII.pib + CartaII.pontosTuristicos + CartaII.densidadePopulacional + CartaII.pibPerCapita) / 2;
 
-   
+    // Cálculo de densidade populacional e PIB per capita
+    CartaI.densidadePopulacional =   CartaI.populacao / CartaI.area;
+    CartaI.pibPerCapita = CartaI.populacao / CartaI.pib;
+    
+    CartaII.densidadePopulacional = CartaII.populacao / CartaII.area;
+    CartaII.pibPerCapita = CartaII.populacao / CartaII.pib;
+
+    
+    
 
     return 0;
 }

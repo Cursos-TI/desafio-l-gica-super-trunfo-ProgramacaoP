@@ -91,8 +91,31 @@ int main() {
     printf("O Pib Per Capta é de: %.2f \n", CartaII.pibPerCapita);
     printf("O Super Poder é de: %.2f \n", CartaII.SuperPoder);
 
-    
-    
+    // Abaixo exibição de dados das cartas - Nivel Novato tema 2
+    printf("\n\nDados inseridos pelo usuário para a Carta I\n");
+    printf("Estado:%s\n", CartaI.estado);
+    printf("Codigo da Carta:%s\n", CartaI.codigo);
+    printf("Nome da cidade:%s\n", CartaI.cidade);
+    printf("Populacao:%d\n", CartaI.populacao);
+    printf("Area:%.2f\n", CartaI.area);
+    printf("PIB:%.2f\n", CartaI.pib);
+    printf("Numero de Pontos Turisticos:%d\n", CartaI.pontosTuristicos);
+    printf("Densidade Populacional:%.2f\n", CartaI.densidadePopulacional);
+    printf("PIB Per Capita:%.2f\n", CartaI.pibPerCapita);
+    printf("Super Poder:%.2f\n", CartaI.SuperPoder);
+
+    printf("\n\nDados inseridos pelo usuário para a Carta II\n");
+    printf("Estado:%s\n", CartaII.estado);
+    printf("Codigo da Carta:%s\n", CartaII.codigo);
+    printf("Nome da cidade:%s\n", CartaII.cidade);
+    printf("Populacao:%d\n", CartaII.populacao);
+    printf("Area:%.2f\n", CartaII.area);
+    printf("PIB:%.2f\n", CartaII.pib);  
+    printf("Numero de Pontos Turisticos:%d\n", CartaII.pontosTuristicos);
+    printf("Densidade Populacional:%.2f\n", CartaII.densidadePopulacional);
+    printf("PIB Per Capita:%.2f\n", CartaII.pibPerCapita); 
+    printf("Super Poder:%.2f\n", CartaII.SuperPoder);
+
    
     
 

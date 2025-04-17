@@ -116,7 +116,19 @@ int main() {
     printf("PIB Per Capita:%.2f\n", CartaII.pibPerCapita); 
     printf("Super Poder:%.2f\n", CartaII.SuperPoder);
 
-   
+    // Abaixo comparação entre as cartas - Nivel Novato tema 2
+    printf("\n\nComparação entre as cartas\n\n");
+ 
+    printf("\nPIB da Carta I: %.2f\n", CartaI.pib);
+    printf("PIB da Carta II: %.2f\n", CartaII.pib);
+    if (CartaI.pib > CartaII.pib) {
+        printf("A Carta I venceu! Tem maior PIB.\n");
+    } else if (CartaI.pib < CartaII.pib) {
+        printf("A Carta II venceu! Tem maior PIB.\n");
+    } else {
+        printf("As cartas têm o mesmo PIB.\n");
+    }
+    
     
 
     return 0;

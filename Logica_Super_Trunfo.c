@@ -50,7 +50,50 @@ int main() {
     CartaII.densidadePopulacional = CartaII.populacao / CartaII.area;
     CartaII.pibPerCapita = CartaII.populacao / CartaII.pib;
 
+    // Abaixo solicitação de entrada de dados para cada atributo da carta - Nivel Novato tema 2
+    printf("\nUsuário, insira os dados para a Carta I\n");
+    printf("Digite o Estado: ");
+    scanf("%s", CartaI.estado);
+    printf("Digite o Codigo da Carta: ");
+    scanf("%s", CartaI.codigo);
+    printf("Digite o Nome da cidade: ");
+    scanf("%s", CartaI.cidade);
+    printf("Digite a Populacao: ");
+    scanf("%d", &CartaI.populacao); 
+    printf("Digite a Area: ");
+    scanf("%f", &CartaI.area);
+    printf("Digite o PIB: ");
+    scanf("%f", &CartaI.pib);
+    printf("Digite o Numero de Pontos Turisticos:  ");
+    scanf("%d", &CartaI.pontosTuristicos);
+    //Funcionalidade de divisão e exibição - Nivel Novato tema 2
+    printf("A Densidade populaçional é: %.2f \n", CartaI.densidadePopulacional);
+    printf("O Pib Per Capta é de: %.2f \n", CartaI.pibPerCapita);
+    printf("O Super Poder é de: %.2f \n", CartaI.SuperPoder);
+
+    printf("\nUsuário, insira os dados para a Carta II\n");
+    printf("Digite o Estado: ");
+    scanf("%s", CartaII.estado);
+    printf("Digite o Codigo da Carta: ");
+    scanf("%s", CartaII.codigo);
+    printf("Digite o Nome da cidade: ");
+    scanf("%s", CartaII.cidade);
+    printf("Digite a Populacao: ");
+    scanf("%d", &CartaII.populacao);
+    printf("Digite a Area: ");
+    scanf("%f", &CartaII.area);
+    printf("Digite o PIB: ");
+    scanf("%f", &CartaII.pib);
+    printf("Digite o Numero de Pontos Turisticos:  ");
+    scanf("%d", &CartaII.pontosTuristicos);
+     //Funcionalidade de divisão e exibição - Nivel Novato tema 2
+    printf("A Densidade populaçional é: %.2f \n", CartaII.densidadePopulacional);
+    printf("O Pib Per Capta é de: %.2f \n", CartaII.pibPerCapita);
+    printf("O Super Poder é de: %.2f \n", CartaII.SuperPoder);
+
     
+    
+   
     
 
     return 0;

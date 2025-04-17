@@ -18,7 +18,32 @@ int main() {
         float densidadePopulacional;
         float pibPerCapita;
         float SuperPoder;
-    } 
+    } Carta;
+    Carta CartaI, CartaII;
+    // Inicialização das cartas
+    CartaI.estado, "A";
+    CartaI.codigo, "A01";
+    CartaI.cidade, "Salvador";
+    CartaI.populacao = 2418000;
+    CartaI.area = 693.8;
+    CartaI.pib = 21.8;
+    CartaI.pontosTuristicos = 20;
+    CartaI.densidadePopulacional = CartaI.populacao / CartaI.area;
+    CartaI.pibPerCapita =  CartaI.populacao / CartaI.pib;
+    CartaI.SuperPoder = (CartaI.populacao + CartaI.area + CartaI.pib + CartaI.pontosTuristicos + CartaI.densidadePopulacional + CartaI.pibPerCapita) / 2;
+
+    CartaII.estado[0] = 'B'; CartaII.estado[1] = '\0';
+    CartaII.codigo, "B01";
+    CartaII.cidade, "Fortaleza";
+    CartaII.populacao = 2428678;
+    CartaII.area = 312.3;
+    CartaII.pib = 74.4;
+    CartaII.pontosTuristicos = 17;
+    CartaII.densidadePopulacional = CartaII.populacao / CartaII.area;
+    CartaII.pibPerCapita = CartaII.populacao / CartaII.pib;
+    CartaII.SuperPoder = (CartaII.populacao + CartaII.area + CartaII.pib + CartaII.pontosTuristicos + CartaII.densidadePopulacional + CartaII.pibPerCapita) / 2;
+
+   
 
     return 0;
 }
